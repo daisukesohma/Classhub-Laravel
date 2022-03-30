@@ -1,0 +1,86 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.thumb {
+	border: 1px solid #ddd; /* Gray border */
+    border-radius: 4px;  /* Rounded border */
+    padding: 5px; /* Some padding */
+    width: 150px; /* Set a small width */
+	height: 150px;
+}
+
+.thumb:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.thumbs a {
+	position: relative;
+	padding-right: 20px;
+	margin: 20px 0;
+	text-decoration: none;
+}
+
+.view-link a {
+	position: relative;
+	margin: 10px 0;
+	text-decoration: none;
+}
+
+.thumbs .btn {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #E71C1C;
+  color: white;
+  font-size: 16px;
+  padding: 2px 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.thumbs .btn:hover {
+  background-color: black;
+}
+
+.m-form .m-form__section {
+	color: #77C7A2;
+}
+
+.host-log {
+	color: #e74a65;
+	font-weight: bold;
+	padding-right: 20px;
+	display: table-cell;
+	width: 100px;
+}
+.refundee-log {
+	color: #58595B;
+	font-weight: bold;
+	padding-right: 20px;
+	display: table-cell;
+	width: 100px;
+}
+.message-log {
+	display: table-cell;
+	text-align: justify;
+}
+.refund-message {
+	margin-bottom: 20px;
+	display: table;
+}
+
+@media (max-width: 600px) {
+	.m-portlet .m-portlet__body {
+		overflow-x: auto;
+	}
+}
+
+.admin-category-table .m-btn--icon.m-btn--icon-only {
+	width: 30px;
+	height: 30px;
+}
+
+.admin-category-table .m-btn--icon.m-btn--icon-only>i {
+	font-size: 1rem;
+}

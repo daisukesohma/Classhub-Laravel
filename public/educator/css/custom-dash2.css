@@ -1,0 +1,545 @@
+.search-form input {
+	 background: #fff;
+	border: 1px solid #222;
+	border-radius: 60px;
+	color: #000;
+}
+
+.nav-bar {
+	height: 100px;
+	line-height: 75px;
+	max-height: 100px;
+}
+
+.search-form input:focus{
+    outline: none;
+}
+
+.module.widget-handle {
+	border: none;
+}
+
+.has-dropdown:after {
+	display: none;
+}
+
+.image-slider .slides li > img {
+	border-top-right-radius: 6px;
+	border-top-left-radius: 6px;
+}
+
+.card {
+	border: 1px solid #ACACAB;
+	border-radius: 6px;
+	padding: 0px;
+	margin: 5px;
+}
+
+.card-details {
+	padding: 0px 15px 15px 15px;
+}
+
+.card-details h6 {
+	margin-bottom: 0px;
+}
+
+.flex-prev, .flex-next {
+	display: none!important;
+}
+
+.section {
+	padding: 50px 0;
+}
+
+.image-tile {
+	border-radius: 6px;
+}
+
+.feature.boxed {
+	background: #fff;
+}
+            
+#map {
+                width: 100%;
+                height: 1000px;
+            }
+.place-hover {
+	
+	height: 200px;
+}
+.place-hover:hover {
+	background-color: rgba(0,0,0,0.50);
+}
+
+.search-form {
+	display: inline-block;
+}
+@media (min-width:501px) {
+	.only-mobile {
+		display: none;
+	}
+	table {
+		overflow: hidden;
+	}
+.m-badge.m-badge--wide {
+	margin-top: 20px;
+}
+	.signup-form .m-badge.m-badge--wide {
+		margin-top: 0px
+	}
+}
+
+
+
+.lined tr {
+	padding: 100px 0px;
+	border-bottom: 1px solid;
+	margin: 100px 0px;
+}
+
+.lined td {
+	
+	line-height: 50px!important;
+}
+
+.bookings { 
+  width: 100%; 
+  border-collapse: collapse; 
+}
+/* Zebra striping */
+.bookings tr:nth-of-type(odd) { 
+  background: #eee; 
+}
+.bookings th { 
+  background: #fff; 
+  color: #212121; 
+  font-weight: bold; 
+}
+.bookings td, .bookings th { 
+  padding: 6px; 
+  border-top: 1px solid #ccc; 
+  border-bottom: 1px solid #ccc; 
+  text-align: left; 
+}
+.pastBookings { 
+  width: 100%; 
+  border-collapse: collapse; 
+}
+/* Zebra striping */
+.pastBookings tr:nth-of-type(odd) { 
+  background: #eee; 
+}
+.pastBookings th { 
+  background: #fff; 
+  color: #212121; 
+  font-weight: bold; 
+}
+.pastBookings td, .pastBookings th { 
+  padding: 6px; 
+  border-top: 1px solid #ccc; 
+  border-bottom: 1px solid #ccc; 
+  text-align: left; 
+}
+
+@media (max-width:500px) {
+	.outer-card, .project {
+		margin: 30px;
+	}
+	.search-form {
+		display: none;
+	}
+	h4.uppercase {
+		text-align: center;
+	}
+	.mobile-toggle {
+		border-left: none!important;
+	}
+	.card {
+		height: 350px;
+	}
+	.lined td {
+	
+	line-height: 30px!important;
+}
+		/* Force table to not be like tables anymore */
+	.bookings, .bookings thead, .bookings tbody, .bookings th, .bookings td, .bookings tr { 
+		display: block; 
+	}
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+	.bookings thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	.bookings tr { border: 1px solid #ccc; }
+	
+	.bookings td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 50%; 
+	}
+	
+	.bookings td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+	}
+	
+	/*
+	Label the data
+	*/
+	.bookings td:nth-of-type(1):before { content: "Class Name"; }
+	.bookings td:nth-of-type(2):before { content: "Location"; }
+	.bookings td:nth-of-type(3):before { content: "Date"; }
+	.bookings td:nth-of-type(4):before { content: "Time"; }
+	.bookings td:nth-of-type(5):before { content: "Actions"; }
+		/* Force table to not be like tables anymore */
+	.pastBookings, .pastBookings thead, .pastBookings tbody, .pastBookings th, .pastBookings td, .pastBookings tr { 
+		display: block; 
+	}
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+	.pastBookings thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	.pastBookings tr { border: 1px solid #ccc; }
+	
+	.pastBookings td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 50%; 
+	}
+	
+	.pastBookings td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+	}
+	
+	/*
+	Label the data
+	*/
+	.pastBookings td:nth-of-type(1):before { content: "Class Name"; }
+	.pastBookings td:nth-of-type(2):before { content: "Location"; }
+	.pastBookings td:nth-of-type(3):before { content: "Date"; }
+	.pastBookings td:nth-of-type(4):before { content: "Time"; }
+}
+
+.apply-btn {
+    border: none;
+    color: #fff;
+    background-color: #212121;
+}
+
+.book-btn {
+    border: #212121 2px solid!important;
+    color: #212121!important;
+    background-color: transparent!important;
+}
+
+.MultiCarousel { float: left; overflow: hidden; padding: 15px; position:relative; }
+    .MultiCarousel .MultiCarousel-inner { transition: 1s ease all; float: left; }
+        .MultiCarousel .MultiCarousel-inner .item { float: left;}
+        .MultiCarousel .MultiCarousel-inner .item > div { text-align: center; padding:10px; margin:10px; color:#fff;}
+    .MultiCarousel .leftLst, .MultiCarousel .rightLst { position:absolute; border: none;top:calc(50% - 20px); }
+    .MultiCarousel .leftLst { left:0; }
+    .MultiCarousel .rightLst { right:0; }
+    
+        .MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:#fff; }
+
+.logo {
+	max-height: 170%;
+}
+
+
+  .category-card {
+    display: inline-block;
+	border: 1px solid #ACACAB;
+	border-radius: 6px;
+	padding: 0px;
+	margin: 5px;
+	 width: 19%;
+  }
+
+@media(max-width: 500px) {
+.no-mobile {
+	display: none;
+}
+	
+	section, footer {
+		padding: 40px 10px; 
+	}
+		.menu > li:hover > ul {
+		margin-bottom: 10px;
+	}
+
+.btn-lg {
+	min-width: 0px;
+}
+	
+	input[type="submit"], button[type="submit"] {
+		width: 90%;
+	}
+	.copyright, .social-list {
+		text-align: center;
+	}
+	
+	.pad15 {
+		background-color: transparent !important;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px !important;
+    float: left !important;
+    margin-bottom: 4px !important;
+    text-align: left !important;
+    width: 140px !important;
+    margin-right: 4px !important;
+    border-width: 1px !important;
+    border-style: solid !important;
+    border-color: rgba(0, 0, 0, 0.1) !important;
+    border-image: initial !important;
+    border-radius: 3px !important;
+    padding: 0px !important;
+    overflow: hidden !important;
+	}
+	
+	.item {
+		width: 190px!important;
+	}
+	.category-card {
+		width: 40%;
+	}
+	
+
+.scrolling-wrapper ::-webkit-scrollbar {
+    width: 0px!important;  /* remove scrollbar space */
+    background: transparent!important;  /* optional: just make scrollbar invisible */
+}
+	.top-picks .image-tile .title h5 {
+		font-size: 15px;
+	}
+.top-picks .image-tile .title span {
+		font-size: 8px;
+		line-height: 12px;
+	}
+}
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.scrolling-wrapper::-webkit-scrollbar {
+    width: 0px!important;  /* remove scrollbar space */
+    background: transparent!important;  /* optional: just make scrollbar invisible */
+}
+.address {
+	font-weight: 900;
+	color: #000;
+}
+
+.price {
+	line-height: 10px;
+}
+
+.class-name {
+	color: #e31d3b !important;
+}
+
+.module {
+	padding: 0 45px;
+}
+
+.filled {
+	color: #e31d3b;
+}
+
+.align-right {
+	text-align: right;
+}
+
+input::-webkit-calendar-picker-indicator {
+              opacity: 100;
+				padding-right: 10px;
+           }
+
+html {
+  scroll-behavior: smooth;
+}
+
+.main-advert .slides li > img {
+	border-radius: 0px;
+}
+
+.menu > li ul {
+	background-color: #fff;
+	box-shadow: 2px 2px 10px 2px #888888;
+}
+
+.menu > li > ul li a {
+	color: #000;
+}
+.menu li a {
+	text-transform: none;
+	font-size: 14px;
+}
+
+.datalist-polyfill {
+	list-style: none;
+	display: none;
+	background: white;
+	box-shadow: 0 2px 2px #999;
+	position: absolute;
+	left: 0;
+	top: 0;
+	margin: 0;
+	padding: 0;
+	max-height: 300px;
+	overflow-y: auto;
+}
+
+.datalist-polyfill:empty {
+	display: none !important;
+}
+
+    .datalist-polyfill > li {
+        padding: 3px;
+        font: 13px "Lucida Grande", Sans-Serif;
+    }
+    
+    .datalist-polyfill__active {
+        background: #3875d7;
+        color: white;
+    }
+
+.classDate {
+	    height: 50px;
+    background: #f5f5f5;
+    width: 100%;
+    border-radius: 0;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    position: relative;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #777;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.m-header-menu .m-menu__nav>.m-menu__item>.m-menu__link .m-menu__link-text {
+	font-size: 1.4rem;
+}
+
+.m-nav .m-nav__item>.m-nav__link .m-nav__link-text {
+	font-size: 1.4rem;
+}
+
+.m-badge.m-badge--wide {
+	padding: 0px;
+	border-radius: 1.4rem;
+}
+
+.btn.m-btn--custom {
+	padding: .0rem 2rem;
+}
+
+.m-topbar .m-topbar__nav.m-nav>.m-nav__item>.m-nav__link .m-topbar__username {
+	color: #F8060A;
+	font-size: 1.4rem;
+	text-transform: none;
+}
+
+.m-messenger .m-messenger__messages .m-messenger__message .m-messenger__message-body .m-messenger__message-content .m-messenger__message-text, .m-widget4 .m-widget4__item .m-widget4__info .m-widget4__title {
+	font-size: 1.2rem;
+	font-weight: 700px;
+	color: #818198;
+	line-height: 18px;
+}
+
+.message-box {
+	background: #fff;
+	padding: 10px;
+	-webkit-box-shadow: 3px 2px 47px -13px rgba(0,0,0,0.15);
+	-moz-box-shadow: 3px 2px 47px -13px rgba(0,0,0,0.15);
+	box-shadow: 1px 1px 20px 1px rgba(0,0,0,0.15);
+	display: block;
+    position: fixed;
+    width: 105%;
+    bottom: 0%;
+    z-index: 20000;
+}
+
+.message-input {
+	border: none!important;
+	box-shadow: none!important;
+}
+
+::placeholder {
+	color: #E5E4E4;
+}
+
+.message-input:active {
+	border: none!important;
+	box-shadow: none!important;
+	outline: none!important;
+}
+
+.m-messenger .m-messenger__messages .m-messenger__message.m-messenger__message--out .m-messenger__message-content .m-messenger__message-text {
+	color: #fff;
+}
+
+.m-widget4__item .m-widget4__sub {
+	line-height: 10px;
+}
+
+.m-stack.m-stack--desktop.m-stack--ver>.m-stack__item.m-stack__item--fluid {
+	background: #fff;
+}
+
+.nav.nav-pills.m-nav-pills--btn-sm .m-tabs__link {
+	font-size: 1.2rem;
+	
+}
+
+.m-messenger .m-messenger__form .m-messenger__form-tools {
+	display: block;
+	height: 50px;
+	width: 50px;
+}
+
+.smoothscroll {
+				
+  -webkit-overflow-scrolling: touch;
+			}
+
+.filler-btn {
+	background: grey!important;
+	border: none!important;
+}
+
+.datepicker--time {
+	display: none!important;
+}
